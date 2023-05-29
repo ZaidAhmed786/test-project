@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.App{
+  max-width:500px;
+  margin:0 auto;
+  margin-top: 48px;
+}
+h1{
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.tax-container{
+  display: flex;
+  margin-bottom: 18px;
+}
+ input[type=text],input[type=number]{
+  font-size: 12px;
+  outline:0;
+  padding:6px 8px;
+  border:1px solid rgba(0, 0, 0, 0.188);
+  border-radius: 4px;
+}
+.tax-name{
+  flex-basis: 60%;
+  margin-right: 8px;
+}
+.tax-bar{
+  flex-basis: 10%;
+  display: flex;
+  position: relative;
+}
+.tax-bar span{
+    position: absolute;
+    right:8px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.conditions{
+  display: flex;
+  margin-bottom: 6px;
+}
+.conditions:last-child{
+  margin-bottom: 18px;
+}
+.search{
+  margin: 18px 0;
+}
+li{
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+label,li{
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+input[type=checkbox],
+input[type=radio]{
+  margin-right: 8px;
+}
+
+button{
+  width: 180px;
+  margin-left: auto;
+  display: block;
+  background-color: tomato;
+  border:0;
+  color:white;
+  padding:6px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
